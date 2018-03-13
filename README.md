@@ -1,8 +1,8 @@
-# Alexandria Web Publisher
-An Open-Source free way to control & publish your content.
+# 3DRM
+An Open-Source free way to control & publish your 3D content.
 
 ## What is this?
-The Alexandria Web Publisher is a simple way to publish/add content to the Open Index (OIP). You create an account, upload your files, set your pricing, and then click Publish. Information about your content is then written permanantly into the Florincoin Blockchain.
+The 3DRM Web Publisher is a simple way to publish/add content to the Open Index (OIP). You create an account, upload your files, set your pricing, and then click Publish. Information about your content is then written permanantly into the Florincoin Blockchain.
 
 ## Features
 - [x] Login to Cryptocurrency wallet using Email & Password
@@ -25,7 +25,7 @@ This project is licensed under the MIT License
 
 MIT License
 
-Copyright (c) 2016-2017 The Decentralized Library of Alexandria
+Copyright (c) 2016-2017 3DRM
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

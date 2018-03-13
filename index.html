@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="Blockchain Media Distribution">
-		<meta name="keywords" content="Blockchain Media Distribution, Blockchain, Media, Distribution, Alexandria, Bitcoin, Florincoin, Decentralized, P2P, FLO, BTC, Free, Video, Publisher">
-		<title>ΛLΞXΛNDRIΛ Publisher</title>
-		
+		<meta name="keywords" content="Blockchain Media Distribution, Blockchain, Media, Distribution, 3DRM, Alexandria, Bitcoin, Florincoin, Decentralized, P2P, FLO, BTC, Free, Video, Publisher">
+		<title>3DRM Publisher</title>
+
 		<!-- Application styles-->
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/entypo.css">
@@ -38,7 +38,7 @@
 					float: none;
 					vertical-align: top;
 				}
-					
+
 				.navbar .navbar-collapse {
 					text-align: center;
 				}
@@ -54,9 +54,9 @@
 			}
 
 			.dual-selector {
-				display: flex; 
+				display: flex;
 				padding: 0px 0px !important;
-				width: 100%; 
+				width: 100%;
 				padding-top: 1px !important;
 			}
 
@@ -191,7 +191,7 @@
 		<nav class="navbar navbar-dark bg-dark fixed-top">
 			<a class="navbar-brand" href="#">
 				<img src="./img/logo.png" width="30px" height="30px" class="d-inline-block align-top" alt="">
-				<span style="margin-left: 5px;">ΛLΞXΛNDRIΛ Publisher</span>
+				<span style="margin-left: 5px;">3DRM Publisher</span>
 				<div style="display: inline-block;"><span class="badge badge-primary" style="font-size: 12px; margin-top: -21px; position: absolute; margin-left: 3px;">beta</span></div>
 			</a>
 			<form class="form-inline mr-auto" style="margin: 0px auto">
@@ -209,7 +209,7 @@
 		<div class="container-fluid" style="margin-top: 55px">
 			<div class="loader" id="loader" style=""></div>
 			<div class="errorScreen" id="errorScreen" style="display: none;text-align: center; padding-top: 300px;">
-				
+
 				<h1 class="danger">Oops! Looks like there was an error loading the publisher, please try again later!</h1>
 			</div>
 			<div id="main" class="row" style="display: none;">
@@ -235,7 +235,7 @@
 							<div style="margin-top:60px;">
 								<div class="section publish col-lg-12">
 									<div class="publish-section artifact-type">
-										<h5 style="margin-bottom: 5px;">Select Artifact type</h5> 
+										<h5 style="margin-bottom: 5px;">Select Artifact type</h5>
 										<div class="row justify-content-center" style="margin-bottom: 10px;" id="typeCircles">
 											<!-- <div class="col-2"><div class="type-circle song-icon type-circle-active"></div>Audio</div>
 											<div class="col-2"><div class="type-circle video-icon"></div>Video</div>
@@ -354,7 +354,7 @@
 																	<input id='allRadio' type="radio" name="nsfw" id="artifactFreeBtn" autocomplete="off" onclick="" checked> All Ages
 																</label>
 																<label class="btn btn-sm btn-outline-dark" id='nsfwRadioLabel'>
-																	<input id='nsfwToggle' type="radio" name="nsfw" id="artifactPaidBtn" autocomplete="off" onclick="" unchecked> 18+ (NSFW) 
+																	<input id='nsfwToggle' type="radio" name="nsfw" id="artifactPaidBtn" autocomplete="off" onclick="" unchecked> 18+ (NSFW)
 																</label>
 															</div>
 															<br />
@@ -375,7 +375,7 @@
 														<input id='freeRadio' type="radio" name="free" id="artifactFreeBtn" autocomplete="off" onclick="" checked> Free
 													</label>
 													<label class="btn btn-outline-success" id='paidRadioLabel'>
-														<input id='paidRadio' type="radio" name="free" id="artifactPaidBtn" autocomplete="off" onclick="$('#paymentInfo').show();" unchecked> Paid 
+														<input id='paidRadio' type="radio" name="free" id="artifactPaidBtn" autocomplete="off" onclick="$('#paymentInfo').show();" unchecked> Paid
 													</label>
 												</div>
 												<br/>
@@ -396,13 +396,13 @@
 															</thead>
 															<tbody id="pricingTableBody">
 																<tr class="text-center">
-																	
+
 																</tr>
 															</tbody>
 														</table>
 													</div>
 												</div>
-											</div>			
+											</div>
 										</div>
 									</div>
 									<div class="row">
@@ -469,7 +469,7 @@
 																		<img style="height: 30px" src="./img/FLOflat2.png">
 																	</button>
 																	<div class="dropdown-menu">
-																		
+
 																	</div>
 																</div>
 																<input id="currentPublisherAddress" type="text" class="form-control" oninput="PhoenixUI.onPaymentAddressChange(this);" disabled value="">
@@ -478,7 +478,7 @@
 																</span>
 															</div>
 															<div class="col-1">
-																
+
 															</div>
 														</div>
 														<div class="row" id="1">
@@ -508,7 +508,7 @@
 															</div>
 														</div>
 													</div>
-														
+
 													<small id="emailHelp" class="form-text text-muted">Select the default payment address using the selector on the Right side.</small>
 												</div>
 											</div>
@@ -528,7 +528,7 @@
 													</div>
 													<div class="col-4">
 														<div class="row">
-															<label for="example-text-input" class="col-6 col-form-label" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-offset="0 -45" title="What is a Retailer?" data-content="A Retailer is someone who sells your content. This includes people like Alexandria currently.">Retailer <span class="icon icon-help-with-circle"></span></label>
+															<label for="example-text-input" class="col-6 col-form-label" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-offset="0 -45" title="What is a Retailer?" data-content="A Retailer is someone who sells your content. This includes people like 3DRM currently.">Retailer <span class="icon icon-help-with-circle"></span></label>
 															<div class="col-6">
 																<div class="input-group">
 																	<input id="retailer" type="text" class="form-control" oninput="PhoenixUI.onAdvancedInput(this);" placeholder="15">
@@ -548,13 +548,13 @@
 															</div>
 														</div>
 													</div>
-														
-														
+
+
 												</div>
 												<small class="form-text text-muted text-center" style="margin-bottom: 10px">Hover over the Promoter, Retailer, and Max Discount text for more information.</small>
 											</div>
 										</div>
-											
+
 									</div>
 									<div class="publish-section publish-submit" id="publishSubmitSection">
 										<div class="row align-items-center">
@@ -653,7 +653,7 @@
 																	<div class="input-group-addon">BTC</div>
 																</div>
 																</div>
-																
+
 																<div class="form-group">
 																<div class="input-group">
 																	<input type="text" class="form-control" id="floValue" placeholder="" style="width: 75px;" onblur="updateFLO()">
@@ -751,7 +751,7 @@
 										<th scope="row"><span class="badge badge-success">Active</span></th>
 										<td><code>Apollo 11</code></td>
 										<td>
-											
+
 										</td>
 										<td>
 											<button class="btn btn-no-pad btn-outline-info">View</button>
@@ -785,7 +785,7 @@
 										<th scope="row"><span class="badge badge-success">Active</span></th>
 										<td><code>Apollo 14</code></td>
 										<td>
-											
+
 										</td>
 										<td>
 											<button class="btn btn-no-pad btn-outline-info">View</button>
@@ -796,7 +796,7 @@
 										<th scope="row"><span class="badge badge-success">Active</span></th>
 										<td><code>Apollo 15</code></td>
 										<td>
-											
+
 										</td>
 										<td>
 											<button class="btn btn-no-pad btn-outline-info">View</button>
@@ -930,10 +930,10 @@
 								</div>
 							</div>
 						</div>
-								
+
 						<!--<div class="col-sm-12 bg-white" style="padding-top: 25px">
 							<h4 class="text-center">Identifier: <code id="identifier"></code></h4>
-							
+
 							<div class="table-responsive">
 								<table class="table table-bordered table-condensed" id="addressTable">
 									<thead>
@@ -1068,7 +1068,7 @@
 								<hr />
 							</div>
 						</div>
-						
+
 						<div class="col-sm-12 bg-white">
 							<h4>Clear Local Storage</h4>
 							<p>Press this button if you are having issues with your account, then log back in. It might fix your issues.</p>
@@ -1181,9 +1181,9 @@
 		(function(w, d, s, u) {
 				w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
 				var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-				j.async = true; j.src = "https://chat.alexandria.io/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944";
+				j.async = true; j.src = "https://chat.3DRM.io/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944";
 				h.parentNode.insertBefore(j, h);
-		})(window, document, "script", "https://chat.alexandria.io/livechat");
+		})(window, document, "script", "https://chat.3DRM.io/livechat");
 		</script>
 		<!-- End of Rocket.Chat Livechat Script -->
 		<!-- Load Dependencies JS -->
@@ -1228,7 +1228,7 @@
 			PhoenixUI.generateDraftRows();
 
 			// Handle all of the drag and drop setup
-			var posterDropzone = new Dropzone("div#poster", { 
+			var posterDropzone = new Dropzone("div#poster", {
 				url: "/",
 				createImageThumbnails: false,
 				autoProcessQueue: false,
@@ -1240,7 +1240,7 @@
 
 			posterDropzone.on("addedfile", PhoenixUI.posterFileSelectHandler);
 
-			var mediaDropzone = new Dropzone("div#mediaDrop", { 
+			var mediaDropzone = new Dropzone("div#mediaDrop", {
 				url: "/",
 				autoProcessQueue: false,
 				accept: function(){},
@@ -1250,7 +1250,7 @@
 
 			mediaDropzone.on("addedfile", PhoenixUI.mediaFileSelectHandler);
 
-			var bulkDropzone = new Dropzone("div#bulk", { 
+			var bulkDropzone = new Dropzone("div#bulk", {
 				url: "/",
 				accept: function(){},
 				autoProcessQueue: false,
@@ -1266,7 +1266,7 @@
 
 
 
-			
+
 			$('#paymentInfo').hide();
 
 			var free, paid;
